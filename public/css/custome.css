@@ -1,0 +1,227 @@
+.navbarfix {
+    background-color: #d6cb69;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbarfix a {
+    color : black;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24,
+}
+footer {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+  }
+
+  .parsley-errors-list {
+    color: red;
+}
+
+.checkoutdiv {
+    height: 100px;
+    width: 100%;
+    background-color: powderblue;
+  }
+  #contact-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black container */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #2ecc71; /* Green button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* CSS */
+.myDiv1 {
+    width: 200px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border: 2px solid red;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    padding: 3px;
+    border-radius: 8px;
+    background-color: rgb(207, 58, 58);
+    /* You can adjust the border width (2px in this case) and other properties as needed */
+    /* You can also use other border properties like border-radius for rounded corners */
+}
+.myDiv2 {
+    width: 200px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border: 2px solid rgb(160, 60, 60);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    padding: 3px;
+    border-radius: 8px;
+    background-color:  rgb(160, 60, 60);
+    /* You can adjust the border width (2px in this case) and other properties as needed */
+    /* You can also use other border properties like border-radius for rounded corners */
+}
+.myDiv3 {
+    width: 200px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border: 2px solid rgb(36, 155, 46);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    padding: 3px;
+    border-radius: 8px;
+    background-color:  rgb(36, 155, 46);
+    /* You can adjust the border width (2px in this case) and other properties as needed */
+    /* You can also use other border properties like border-radius for rounded corners */
+}
+.myDiv4 {
+    width: 200px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border: 2px solid rgb(59, 49, 199);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    padding: 3px;
+    border-radius: 8px;
+    background-color: rgb(59, 49, 199);
+    /* You can adjust the border width (2px in this case) and other properties as needed */
+    /* You can also use other border properties like border-radius for rounded corners */
+}
+.myDiv5 {
+    width: 200px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border: 2px solid rgba(76, 77, 27, 0.781);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    padding: 3px;
+    border-radius: 8px;
+    background-color: rgba(76, 77, 27, 0.781);
+    /* You can adjust the border width (2px in this case) and other properties as needed */
+    /* You can also use other border properties like border-radius for rounded corners */
+}
+.myDiv6 {
+    width: 200px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border: 2px solid rgba(132, 145, 23, 0.87);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    padding: 3px;
+    border-radius: 8px;
+    background-color: rgba(132, 145, 23, 0.87);
+    /* You can adjust the border width (2px in this case) and other properties as needed */
+    /* You can also use other border properties like border-radius for rounded corners */
+}
+.admin-heading{
+    background-color: 	#3d81bd;
+}
+.adminDashSideDiv {
+    height: 85vh;
+    /* border: 2px solid red; */
+    background-color: #3d81bd;
+    padding: 0px;
+    border-radius: 10px;
+    /* You can adjust the border width (2px in this case) and other properties as needed */
+    /* You can also use other border properties like border-radius for rounded corners */
+}
+.circularDiv {
+    width: 150px; /* Adjust the width of the circular div */
+    height: 150px; /* Adjust the height of the circular div */
+    /* background-color: red; */
+    border-radius: 50%;
+    overflow: hidden; /* Ensure that the image does not overflow the circular div */
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.circularDiv img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire space */
+}
+.sidebarText{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.myDiv7 {
+    width: 1100px; /* Adjust the width as needed */
+    height: 360px; /* Adjust the height as needed */
+    border: 2px solid rgba(132, 145, 23, 0.87);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    padding: 3px;
+    border-radius: 8px;
+    background-color: rgba(132, 145, 23, 0.87);
+    /* You can adjust the border width (2px in this case) and other properties as needed */
+    /* You can also use other border properties like border-radius for rounded corners */
+}
+
+/* css to hide the div unless a button is clicked */
+#hiddenDiv {
+    display: none;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    margin-top: 10px;
+}
+
+/* product display in table */
+.product-image {
+    width: 100px; /* Set your desired width */
+    height: 80px; /* Set your desired height */
+    display: block;
+    margin: auto; /* Centers the image horizontally */
+    margin-top: 5px; /* Add some top margin for spacing */
+}
+/* checkout table */
+.custom-table {
+    height: 200px;
+}
